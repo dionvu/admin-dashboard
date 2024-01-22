@@ -11,38 +11,76 @@
 <body>
   <div id="container">
     <div id="dashboard">
-      <div id="dashboard-header">
-        <img src="assets/view-dashboard.png">
+      <div id="dash-header">
+        <img class="dash-icon" id="big-icon" src="assets/view-dashboard.png">
         <h1>Dashboard</h1>
       </div>
-      <div class="section" id="dashboard-top">
-        <div>Home</div>
-        <div>Profile</div>
-        <div>Messages</div>
-        <div>History</div>
-        <div>Tasks</div>
-        <div>Communities</div>
+      <div class="section">
+        <div class="dash-item">
+          <img src="assets/home.png" class="dash-icon" alt="">
+          Home
+        </div>
+        <div class="dash-item">
+          <img src="assets/message.png" class="dash-icon" alt="">
+          Messages
+        </div>
+        <div class="dash-item">
+          <img src="assets/clock.png" class="dash-icon" alt="">
+          History
+        </div>
+        <div class="dash-item">
+          <img src="assets/card.png" class="dash-icon" alt="">
+          Profile
+        </div>
+        <div class="dash-item">
+          <img src="assets/check-list.png" class="dash-icon" alt="">
+          Tasks
+        </div>
+        <div class="dash-item">
+          <img src="assets/group-people.png" class="dash-icon" alt="">
+          Communities
+        </div>
       </div>
-      <div class="section" id="dashboard-bottom">
-        <div>Settings</div>
-        <div>Support</div>
-        <div>Privacy</div>
+      <div class="section">
+        <div class="dash-item">
+          <img src="assets/cog.png" class="dash-icon" alt="">
+          Settings
+        </div>
+        <div class="dash-item">
+          <img src="assets/help-box.png" class="dash-icon" alt="">
+          Support
+        </div>
+        <div class="dash-item">
+          <img src="assets/shield-check.png" class="dash-icon" alt="">
+          Privacy
+        </div>
       </div>
     </div>
     <div id="nav">
-      <div id="nav-top">
+      <div class="nav-section">
         <div id="search">
-          <img id="search-icon" src="assets/magnify.png">
-          <div id="search-bar"></div>
+          <img class="nav-icon" src="assets/magnify.png">
+          <input id="search-bar" placeholder="Type / to search"></input>
         </div>
-        <div id="nav-top-right">
-          <img id="bell-icon" src="assets/bell-ring-outline.png" alt="">
-          <img src="assets/profile.jpg" id="profile-pic" alt="">
-          <h2>Dion Vu</h2>
+        <div id="notifications">
+          <img class="nav-icon" src="assets/bell-ring-outline.png" alt="">
+          <img src="assets/profile.jpg" id="profile-top" alt="">
+          Dion
         </div>
       </div>
-      <div id="nav-bottom">
-
+      <div class="nav-section">
+        <div id="welcome">
+          <img src="assets/profile.jpg" id="profile-bottom" alt="">
+          <div>
+            <p>Hello there,</p>
+            <h1>Dion @dinonuggets</h1>
+          </div>
+        </div>
+        <div id="media-buttons">
+          <button>New</button>
+          <button>Upload</button>
+          <button>Share</button>
+        </div>
       </div>
     </div>
     <div id="main">
